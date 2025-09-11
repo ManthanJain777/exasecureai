@@ -5,15 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-<<<<<<< HEAD
-    "prebuild": "chmod +x ./node_modules/.bin/tsc",
-    "build": "tsc && vite build",
-=======
-    "build": "vite build",
->>>>>>> 259f0eb53989ecdfdc2032dbddcf2bb3ea2b7f46
+    "build": "npx tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "type-check": "tsc --noEmit"
+    "preview": "vite preview"
   },
   "dependencies": {
     "clsx": "^2.0.0",
@@ -38,7 +32,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "typescript": "^5.0.2",
+    "typescript": "^5.9.2",
     "vite": "^7.1.5"
   }
 }
