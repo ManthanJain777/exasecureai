@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs'
 import { CameraCapture } from './CameraCapture'
 import { useCancellableProcesses, createCancellableTimeout } from '../utils/cancellation'
 import { biometricAPI } from '../utils/api'
-import { toast } from 'sonner@2.0.3'
+import { toast } from 'sonner' // Corrected import
 import { 
   Fingerprint, 
   Eye, 
@@ -291,7 +291,7 @@ export function BiometricVerification({ onNavigate }: BiometricVerificationProps
             <h4 className="font-medium text-blue-900">Live Camera Verification Available</h4>
             <p className="text-sm text-blue-700 mt-1">
               This system supports real-time biometric scanning using your device camera. 
-              For the best experience, please allow camera access when prompted. 
+              Please allow camera access when prompted. 
               If camera access is denied or unavailable, simulation mode will be used for demonstration.
             </p>
             <div className="flex items-center space-x-4 mt-2 text-xs text-blue-600">
