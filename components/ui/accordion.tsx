@@ -1,8 +1,10 @@
 "use client";
 
 import * as React from "react";
-import * as AccordionPrimitive from "@radix-ui/react-accordion@1.2.3";
-import { ChevronDownIcon } from "lucide-react@0.487.0";
+// REMOVE THE VERSION NUMBER HERE
+import * as AccordionPrimitive from "@radix-ui/react-accordion";
+// REMOVE THE VERSION NUMBER HERE
+import { ChevronDownIcon } from "lucide-react";
 
 import { cn } from "./utils";
 
