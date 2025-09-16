@@ -5,7 +5,7 @@ import { Badge } from './ui/badge'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs'
 import { Progress } from './ui/progress'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
-import { toast } from 'sonner@2.0.3'
+import { toast } from 'sonner' // Corrected import
 import { 
   BarChart3, 
   TrendingUp, 

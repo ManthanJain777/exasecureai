@@ -8,7 +8,7 @@ import { Switch } from './ui/switch'
 import { Label } from './ui/label'
 import { useCancellableProcesses } from '../utils/cancellation'
 import { examAPI } from '../utils/api'
-import { toast } from 'sonner@2.0.3'
+import { toast } from 'sonner'
 import { 
   Camera, 
   Users, 
