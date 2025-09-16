@@ -3,9 +3,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  css: {
+    postcss: './postcss.config.cjs',
+  },
   resolve: {
     alias: {
-      // Add your aliases here
+      // You can add your aliases here
     }
   }
 })

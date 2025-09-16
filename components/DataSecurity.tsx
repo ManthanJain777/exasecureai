@@ -6,12 +6,12 @@ import { Switch } from './ui/switch'
 import { Label } from './ui/label'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs'
 import { Progress } from './ui/progress'
-import { toast } from 'sonner' // Corrected import
-import {
-  Shield,
-  Lock,
-  Key,
-  Database,
+import { toast } from 'sonner'
+import { 
+  Shield, 
+  Lock, 
+  Key, 
+  Database, 
   CheckCircle,
   AlertTriangle,
   FileShield,

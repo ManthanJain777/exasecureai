@@ -3,7 +3,6 @@ import { Card } from './ui/card'
 import { Button } from './ui/button'
 import { Input } from './ui/input'
 import { ScrollArea } from './ui/scroll-area'
-import { Badge } from './ui/badge'
 import { Separator } from './ui/separator'
 import { 
   Bot, 
