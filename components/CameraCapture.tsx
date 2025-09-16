@@ -14,7 +14,7 @@ import {
   HelpCircle,
   Settings
 } from 'lucide-react'
-import { toast } from 'sonner@2.0.3'
+import { toast } from 'sonner'
 
 // Utility function to check camera support
 const checkCameraSupport = () => {

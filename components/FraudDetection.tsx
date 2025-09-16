@@ -6,7 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs'
 import { Progress } from './ui/progress'
 import { useCancellableProcesses, createCancellableTimeout } from '../utils/cancellation'
 import { fraudAPI } from '../utils/api'
-import { toast } from 'sonner@2.0.3'
+import { toast } from 'sonner'
 import { 
   AlertTriangle, 
   Shield, 
